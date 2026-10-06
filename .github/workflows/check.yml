@@ -1,0 +1,29 @@
+name: Check content and links
+
+on:
+  pull_request:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 7 1 * *' # monthly link check
+
+jobs:
+  content:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npm run build
+  links:
+    runs-on: ubuntu-latest
+    continue-on-error: true
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check that cited sources still resolve
+        uses: lycheeverse/lychee-action@v2
+        with:
+          args: --no-progress --accept 200,206,301,302,403,429 content/
+          fail: false

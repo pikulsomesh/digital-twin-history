@@ -1,0 +1,22 @@
+{
+  "name": "digital-twin-history",
+  "version": "1.0.0",
+  "private": true,
+  "description": "An open, structured history of digital twins and Physical AI, with an interactive website.",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "node scripts/validate-content.mjs && vite build",
+    "preview": "vite preview",
+    "validate": "node scripts/validate-content.mjs",
+    "fetch:publications": "node scripts/fetch-publication-counts.mjs"
+  },
+  "devDependencies": {
+    "vite": "^8.3.3"
+  },
+  "dependencies": {
+    "marked": "^18.1.0",
+    "three": "^0.186.1"
+  }
+}

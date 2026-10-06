@@ -1,0 +1,51 @@
+[
+  {
+    "id": "precursors",
+    "name": "Mirrors before the name",
+    "range": [1880, 1970],
+    "tagline": "Physical stand-ins, simulators and the first feedback loops",
+    "summary": "Long before anyone said \"digital twin\", factories and space programs kept a second copy of reality to reason about the first. Time clocks recorded who was on the floor, andon lights signalled the state of a line, flight simulators rehearsed missions, and NASA ran full-scale simulators that mirrored spacecraft in flight. The Kalman filter (1960) gave engineers the mathematics for continuously correcting a model with live measurements: the core loop of every twin since."
+  },
+  {
+    "id": "digital-models",
+    "name": "The digital model",
+    "range": [1971, 1989],
+    "tagline": "Products, buildings and plants move into the computer",
+    "summary": "Computer-aided design, finite element analysis, programmable logic controllers and supervisory control (SCADA) turned drawings, structures and machines into data. Computer-integrated manufacturing imagined the whole factory as one information system, and the first building information models described buildings as objects rather than lines. Models were rich, but mostly static: they described the design, not the thing as it actually was."
+  },
+  {
+    "id": "connected-models",
+    "name": "Connected models",
+    "range": [1990, 2001],
+    "tagline": "Mirror worlds, plant-floor standards and virtual cities",
+    "summary": "David Gelernter's Mirror Worlds (1991) imagined software models of a city or company fed by live data. Industry built the plumbing: manufacturing execution systems, the OPC interface standard and the ISA-95 model for linking the plant floor to the enterprise. Early city models such as Helsinki Arena 2000 and Digital City Kyoto connected virtual places to real sensors, and the Visible Human Project put a complete human anatomy into digital form."
+  },
+  {
+    "id": "named",
+    "name": "The idea gets a name",
+    "range": [2002, 2013],
+    "tagline": "Product lifecycle thinking meets aerospace engineering",
+    "summary": "In 2002 Michael Grieves presented a \"conceptual ideal\" for product lifecycle management: a real space, a virtual space and the data flowing between them. NASA's 2010 technology roadmapping, led by John Vickers, introduced the term \"digital twin\", and in 2011–2012 NASA and the US Air Force published the first formal definitions for vehicles whose virtual counterparts would track their whole life. Germany's Industrie 4.0 program (2011) placed connected, model-driven production at the center of industrial policy."
+  },
+  {
+    "id": "scale-up",
+    "name": "Industrial scale-up",
+    "range": [2014, 2019],
+    "tagline": "Cheap sensors, cloud computing and the industrial internet",
+    "summary": "Falling costs for sensors, connectivity and computing let twins move from flagship aerospace programs into fleets of turbines, compressors, production lines, buildings and whole cities. Industry analysts placed digital twins among the top strategic technologies, national programs built city-scale twins, and medical researchers began building validated models of individual organs. Robotics researchers showed that policies trained in randomized simulations could transfer to real machines."
+  },
+  {
+    "id": "standards",
+    "name": "Definitions and standards",
+    "range": [2020, 2023],
+    "tagline": "From buzzword to engineering discipline",
+    "summary": "Professional bodies, consortia and standards organizations converged on what a twin is and is not. ISO published a digital twin framework for manufacturing (2021) and a cross-domain vocabulary (2023). The US National Academies called for investment in the foundations: uncertainty quantification, validation and the two-way link between virtual and physical. Europe launched Destination Earth to build twins of the planet itself."
+  },
+  {
+    "id": "ai-native",
+    "name": "AI-native twins and Physical AI",
+    "range": [2024, 2026],
+    "tagline": "Twins as training grounds and as thinking partners",
+    "summary": "Machine-learned models now run alongside, and sometimes in place of, physics solvers, and operational weather centers forecast with them. Photorealistic reality capture turns scans into simulation-ready worlds in hours. Twins have become the training ground for Physical AI: robots and autonomous systems learn in simulation and transfer to reality. Research is now focused on generative world models, agents that can operate twins, and trustworthy validation."
+  }
+]

@@ -1,0 +1,756 @@
+[
+  {
+    "id": "time-clock",
+    "year": 1888,
+    "title": "Mechanical time recorders track who is at work",
+    "era": "precursors",
+    "domains": ["people", "manufacturing"],
+    "kind": "precursor",
+    "significance": 1,
+    "summary": "Workers 'clock in' on a mechanical recorder, creating one of the first continuous records of people on a shop floor.",
+    "detail": "Time recorders turned attendance from a foreman's memory into a written record that management could review away from the floor. It is a simple idea, but it is the same move a digital twin makes: keep a faithful record of the physical operation so decisions can be made from the record. Workforce and attendance data remains one of the oldest continuous data streams in industry, and it feeds today's twins of staffing, safety and labor planning.",
+    "sources": [
+      {"title": "Time clock (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Time_clock"}
+    ]
+  },
+  {
+    "id": "jidoka-loom",
+    "year": 1924,
+    "title": "A loom that stops itself when a thread breaks",
+    "era": "precursors",
+    "domains": ["manufacturing"],
+    "kind": "precursor",
+    "significance": 1,
+    "summary": "Sakichi Toyoda's automatic loom detects a fault and halts, the origin of 'jidoka', or automation with a human touch.",
+    "detail": "The Type G automatic loom stopped when a thread broke, so one operator could supervise many machines. The principle, which says a machine should sense abnormal conditions and make them visible, became a pillar of the Toyota Production System. It is an early example of a machine reporting its own state, which is the raw material of every later twin.",
+    "sources": [
+      {"title": "Jidoka / Autonomation (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Autonomation"}
+    ]
+  },
+  {
+    "id": "link-trainer",
+    "year": 1929,
+    "title": "The flight simulator: rehearsing reality on a stand-in",
+    "era": "precursors",
+    "domains": ["aerospace"],
+    "kind": "precursor",
+    "significance": 1,
+    "summary": "Edwin Link's ground trainer lets pilots practice instrument flying on a machine that behaves like an aircraft.",
+    "detail": "The Link Trainer was an electro-mechanical model of an aircraft's response to its controls. It established a pattern that runs straight through to modern twins: build a faithful stand-in for a costly or dangerous system and use it to train, test and rehearse before touching the real thing.",
+    "sources": [
+      {"title": "Link Trainer (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Link_Trainer"}
+    ]
+  },
+  {
+    "id": "monte-carlo",
+    "year": 1946,
+    "title": "Computer simulation and the Monte Carlo method",
+    "era": "precursors",
+    "domains": ["foundations"],
+    "kind": "enabler",
+    "significance": 1,
+    "summary": "Scientists use early electronic computers to simulate physical processes statistically, founding computer simulation as a discipline.",
+    "detail": "Monte Carlo methods, developed for nuclear physics on the first electronic computers, showed that a computer could explore how a physical system might behave across thousands of random scenarios. Probabilistic simulation remains central to twins that must estimate risk, remaining life or uncertainty.",
+    "sources": [
+      {"title": "Monte Carlo method (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Monte_Carlo_method"}
+    ]
+  },
+  {
+    "id": "numerical-control",
+    "year": 1952,
+    "title": "Numerically controlled machine tools",
+    "era": "precursors",
+    "domains": ["manufacturing"],
+    "kind": "enabler",
+    "significance": 1,
+    "summary": "Machine tools are driven by coded instructions for the first time, so part geometry becomes data.",
+    "detail": "Numerical control (NC), demonstrated at MIT in the early 1950s, meant that the shape of a part could be stored and replayed as numbers. Once geometry was data, it could be designed, simulated and checked in a computer before any metal was cut. Computer numerical control (CNC), CAD/CAM and today's machining twins all descend from it.",
+    "sources": [
+      {"title": "Numerical control (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Numerical_control"}
+    ]
+  },
+  {
+    "id": "andon",
+    "year": 1955,
+    "title": "Andon lights make the state of the line visible",
+    "era": "precursors",
+    "domains": ["manufacturing", "people"],
+    "kind": "precursor",
+    "significance": 2,
+    "summary": "Lights and boards above production lines show at a glance where work is flowing and where it has stopped.",
+    "detail": "As the Toyota Production System matured in the 1950s and 1960s, andon signals let any worker flag a problem and let supervisors read the condition of the whole line from one place. Managers \"following the lights on the shop floor\" were reading a live, if very simple, model of the factory. The modern manufacturing twin is, in one sense, the andon board grown into a full 3D, data-rich and predictive view.",
+    "sources": [
+      {"title": "Andon (manufacturing) (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Andon_(manufacturing)"},
+      {"title": "Toyota Production System (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Toyota_Production_System"}
+    ]
+  },
+  {
+    "id": "kalman",
+    "year": 1960,
+    "title": "The Kalman filter: correcting a model with live measurements",
+    "era": "precursors",
+    "domains": ["foundations", "aerospace"],
+    "kind": "enabler",
+    "significance": 3,
+    "summary": "Rudolf Kálmán publishes a method for continuously updating a model's estimate of a system's state from noisy sensor data.",
+    "detail": "The Kalman filter combines a model's prediction with incoming measurements to produce a better estimate than either alone, then repeats the cycle. It was adopted for Apollo navigation within a few years. This predict-measure-correct loop is the mathematical heart of a digital twin: the virtual model stays synchronized with its physical counterpart because it is constantly corrected by data.",
+    "sources": [
+      {"title": "Kalman filter (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Kalman_filter"}
+    ]
+  },
+  {
+    "id": "sketchpad",
+    "year": 1963,
+    "title": "Sketchpad and the birth of interactive computer graphics",
+    "era": "precursors",
+    "domains": ["foundations", "manufacturing"],
+    "kind": "enabler",
+    "significance": 1,
+    "summary": "Ivan Sutherland's Sketchpad lets a designer draw and manipulate objects directly on a screen.",
+    "detail": "Sketchpad introduced ideas such as objects, constraints and instancing that underpin CAD and every 3D representation since. The visual layer of a modern twin, where people can see and interact with a virtual factory, building or vehicle, traces back here.",
+    "sources": [
+      {"title": "Sketchpad (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Sketchpad"}
+    ]
+  },
+  {
+    "id": "scada",
+    "year": 1965,
+    "title": "Supervisory control and telemetry for plants and grids",
+    "era": "precursors",
+    "domains": ["energy", "manufacturing"],
+    "kind": "enabler",
+    "significance": 2,
+    "summary": "Utilities and process plants begin collecting remote measurements into central control rooms.",
+    "detail": "Through the 1960s and 1970s, telemetry and supervisory control systems (later called SCADA) let operators monitor pipelines, power networks and chemical plants from a single room, often on mimic panels: physical boards that diagrammed the plant with live indicator lights. The mimic panel is an ancestor of the operational twin dashboard.",
+    "sources": [
+      {"title": "SCADA (Wikipedia)", "url": "https://en.wikipedia.org/wiki/SCADA"}
+    ]
+  },
+  {
+    "id": "nastran",
+    "year": 1968,
+    "title": "NASTRAN: structural simulation for spacecraft",
+    "era": "precursors",
+    "domains": ["aerospace", "foundations"],
+    "kind": "enabler",
+    "significance": 1,
+    "summary": "NASA releases a general-purpose finite element program for analyzing structures.",
+    "detail": "Finite element analysis lets engineers predict stress, vibration and heat in complex structures. NASA's NASTRAN made the method widely available and became an industry workhorse. Physics-based simulation like this is what lets a twin predict, not just display.",
+    "sources": [
+      {"title": "Nastran (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Nastran"}
+    ]
+  },
+  {
+    "id": "plc",
+    "year": 1968,
+    "title": "The programmable logic controller",
+    "era": "precursors",
+    "domains": ["manufacturing"],
+    "kind": "enabler",
+    "significance": 2,
+    "summary": "A carmaker's transmission plant asks for a reprogrammable replacement for hard-wired relay panels, and the PLC is born.",
+    "detail": "PLCs replaced walls of relays with software logic. Equally important for twins, they put machine states (running, stopped, faulted, cycle counts) into digital registers that other systems could read. Nearly every factory data stream since starts at a PLC.",
+    "sources": [
+      {"title": "Programmable logic controller (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Programmable_logic_controller"}
+    ]
+  },
+  {
+    "id": "apollo-13",
+    "year": 1970,
+    "title": "Apollo 13: simulators on the ground mirror a crippled spacecraft",
+    "era": "precursors",
+    "domains": ["aerospace"],
+    "kind": "precursor",
+    "significance": 3,
+    "summary": "After an oxygen tank explodes, engineers use ground simulators updated with flight data to work out how to bring the crew home.",
+    "detail": "NASA kept high-fidelity simulators of the command and lunar modules, linked to mission data, for training and for solving problems in flight. During Apollo 13, crews and engineers on the ground rehearsed procedures such as the power-up sequence on these simulators before radioing them to the spacecraft. It is widely cited as the first digital twin in practice, even though the simulators were partly physical and the term did not yet exist.",
+    "sources": [
+      {"title": "Apollo 13 (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Apollo_13"},
+      {"title": "Digital twin: History (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Digital_twin"}
+    ]
+  },
+  {
+    "id": "cim",
+    "year": 1973,
+    "title": "Computer-integrated manufacturing",
+    "era": "digital-models",
+    "domains": ["manufacturing"],
+    "kind": "concept",
+    "significance": 2,
+    "summary": "Joseph Harrington's book frames the factory as a single, integrated information system.",
+    "detail": "Computer-Integrated Manufacturing argued that design, planning, production and control were stages of one information flow and should be connected by computers. Much of what was hard about CIM in the 1980s (incompatible systems and expensive integration) is still what makes factory twins hard today.",
+    "sources": [
+      {"title": "Computer-integrated manufacturing (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Computer-integrated_manufacturing"}
+    ]
+  },
+  {
+    "id": "bim-origins",
+    "year": 1975,
+    "title": "Buildings described as objects, not lines",
+    "era": "digital-models",
+    "domains": ["built"],
+    "kind": "concept",
+    "significance": 2,
+    "summary": "Charles Eastman's Building Description System describes a building as a database of parametric elements.",
+    "detail": "Eastman's work in the 1970s laid the foundations for building information modeling (BIM), in which walls, doors and systems carry properties and relationships rather than being just drawings. BIM, extended with sensor data and operations, became the basis of building and infrastructure twins.",
+    "sources": [
+      {"title": "Building information modeling (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Building_information_modeling"}
+    ]
+  },
+  {
+    "id": "solid-modeling",
+    "year": 1982,
+    "title": "3D solid modeling spreads in engineering",
+    "era": "digital-models",
+    "domains": ["manufacturing", "aerospace", "foundations"],
+    "kind": "enabler",
+    "significance": 1,
+    "summary": "3D CAD and solid modeling move from research labs into design offices.",
+    "detail": "Through the 1980s, solid modeling kernels and affordable workstations made 3D product models practical. A complete 3D definition of the product is the 'as-designed' half of what Grieves later called the virtual space.",
+    "sources": [
+      {"title": "Solid modeling (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Solid_modeling"},
+      {"title": "Computer-aided design (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Computer-aided_design"}
+    ]
+  },
+  {
+    "id": "mirror-worlds",
+    "year": 1991,
+    "title": "Mirror Worlds",
+    "era": "connected-models",
+    "domains": ["foundations", "built", "people"],
+    "kind": "concept",
+    "significance": 3,
+    "summary": "David Gelernter imagines software models of a city, hospital or company, continuously fed by real data, that anyone can explore.",
+    "detail": "Gelernter's book described 'mirror worlds' as true-to-life software replicas of an organization or place that update in real time and let people see the whole. It anticipated both the city twin and the 'twin of an organization', and it is often cited as the intellectual precursor to the digital twin.",
+    "sources": [
+      {"title": "Mirror Worlds (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Mirror_Worlds"}
+    ]
+  },
+  {
+    "id": "mes",
+    "year": 1992,
+    "title": "Manufacturing execution systems",
+    "era": "connected-models",
+    "domains": ["manufacturing", "people"],
+    "kind": "enabler",
+    "significance": 1,
+    "summary": "Plants adopt systems that track orders, materials, people and machines on the shop floor in real time.",
+    "detail": "Manufacturing execution systems (MES) became a recognized category in the early 1990s. They hold the 'as-built' record of what actually happened to each unit, batch and work order, including who did the work. That record is the live data a production twin depends on.",
+    "sources": [
+      {"title": "Manufacturing execution system (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Manufacturing_execution_system"}
+    ]
+  },
+  {
+    "id": "visible-human",
+    "year": 1994,
+    "title": "The Visible Human Project",
+    "era": "connected-models",
+    "domains": ["health"],
+    "kind": "deployment",
+    "significance": 2,
+    "summary": "The US National Library of Medicine releases a complete, high-resolution digital record of human anatomy.",
+    "detail": "Cross-sectional images of a male (1994) and female (1995) body created a reference human in digital form, used for teaching, simulation and model building. It was a first step toward the anatomical layer of human and organ twins.",
+    "sources": [
+      {"title": "The Visible Human Project (US National Library of Medicine)", "url": "https://www.nlm.nih.gov/research/visible/visible_human.html"}
+    ]
+  },
+  {
+    "id": "opc",
+    "year": 1996,
+    "title": "OPC: a common language for plant-floor data",
+    "era": "connected-models",
+    "domains": ["manufacturing", "energy"],
+    "kind": "standard",
+    "significance": 2,
+    "summary": "An industry standard lets software read data from controllers and devices made by different suppliers.",
+    "detail": "Before OPC, every connection between software and a controller was custom. A shared interface made plant-floor data far easier to collect, which is the precondition for keeping any model in sync with a real plant.",
+    "sources": [
+      {"title": "Open Platform Communications (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Open_Platform_Communications"}
+    ]
+  },
+  {
+    "id": "virtual-cities",
+    "year": 1996,
+    "title": "First virtual cities linked to the real ones",
+    "era": "connected-models",
+    "domains": ["built", "supply"],
+    "kind": "deployment",
+    "significance": 2,
+    "summary": "Helsinki Arena 2000 builds an interactive 3D city model, and a London airport rail project links movement sensors to a digital model.",
+    "detail": "Helsinki's Arena 2000 project (from 1996) and Digital City Kyoto (from 1998) explored connecting virtual urban spaces with real places and data. In infrastructure, the Heathrow Express project connected movement sensors to a digital model to monitor construction near an operating terminal. These were early, place-based mirrors.",
+    "sources": [
+      {"title": "Digital twin: History (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Digital_twin"}
+    ]
+  },
+  {
+    "id": "digital-earth",
+    "year": 1998,
+    "title": "The Digital Earth vision",
+    "era": "connected-models",
+    "domains": ["earth", "built"],
+    "kind": "concept",
+    "significance": 1,
+    "summary": "A widely quoted speech describes a multi-resolution, 3D representation of the planet holding vast amounts of geo-referenced data.",
+    "detail": "The 1998 'Digital Earth' speech by US Vice President Al Gore set out a vision of an explorable virtual globe holding environmental, cultural and economic data. Consumer virtual globes followed in the 2000s, and today's planetary twins pursue the same goal with physics and AI.",
+    "sources": [
+      {"title": "Digital Earth (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Digital_Earth"}
+    ]
+  },
+  {
+    "id": "iot",
+    "year": 1999,
+    "title": "\"Internet of Things\" gets its name",
+    "era": "connected-models",
+    "domains": ["foundations", "supply"],
+    "kind": "concept",
+    "significance": 1,
+    "summary": "Kevin Ashton coins the phrase while promoting RFID tags in supply chains.",
+    "detail": "The idea that everyday objects could report their own identity and state, starting with tagged products in the supply chain, became the Internet of Things. Fifteen years later, cheap connected sensors were the main reason twins could spread beyond aerospace.",
+    "sources": [
+      {"title": "Internet of things (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Internet_of_things"}
+    ]
+  },
+  {
+    "id": "isa-95",
+    "year": 2000,
+    "title": "ISA-95 connects the plant floor to the enterprise",
+    "era": "connected-models",
+    "domains": ["manufacturing", "foundations"],
+    "kind": "standard",
+    "significance": 1,
+    "summary": "A standard model describes how production systems and business systems should exchange information.",
+    "detail": "ISA-95 (later IEC 62264) defined the levels of a manufacturing enterprise, from sensors and control to operations and business planning, and the data that flows between them. Factory twins still use this layered model to decide what they represent and where data comes from.",
+    "sources": [
+      {"title": "ANSI/ISA-95 (Wikipedia)", "url": "https://en.wikipedia.org/wiki/ANSI/ISA-95"}
+    ]
+  },
+  {
+    "id": "grieves-2002",
+    "year": 2002,
+    "title": "The \"conceptual ideal\" for product lifecycle management",
+    "era": "named",
+    "domains": ["manufacturing", "foundations"],
+    "kind": "concept",
+    "significance": 3,
+    "summary": "Michael Grieves presents a model with a real space, a virtual space and data flowing between them across the product's whole life.",
+    "detail": "At the University of Michigan in 2002, Grieves presented a slide on a 'Conceptual Ideal for PLM' that had all the elements of the digital twin: real space, virtual space, a data link from real to virtual, an information link from virtual to real, and virtual sub-spaces. He later called it the 'mirrored spaces model' and then the 'information mirroring model', and adopted the term 'digital twin' after NASA's usage. His 2014 white paper and 2017 chapter with John Vickers became standard references.",
+    "sources": [
+      {"title": "Grieves & Vickers (2017), Digital Twin: Mitigating Unpredictable, Undesirable Emergent Behavior in Complex Systems", "url": "https://doi.org/10.1007/978-3-319-38756-7_4"},
+      {"title": "Digital twin (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Digital_twin"}
+    ]
+  },
+  {
+    "id": "dddas",
+    "year": 2004,
+    "title": "Dynamic data-driven application systems",
+    "era": "named",
+    "domains": ["foundations", "earth"],
+    "kind": "research",
+    "significance": 2,
+    "summary": "Frederica Darema articulates simulations that absorb live data and, in turn, steer how that data is collected.",
+    "detail": "DDDAS described a two-way loop: measurements update the model, and the model decides where and how to measure next. The US National Academies' 2023 report points to DDDAS as a direct intellectual ancestor of the bidirectional digital twin.",
+    "sources": [
+      {"title": "National Academies (2023), Foundational Research Gaps and Future Directions for Digital Twins, ch. 1", "url": "https://nap.nationalacademies.org/read/26894/chapter/4"}
+    ]
+  },
+  {
+    "id": "opc-ua",
+    "year": 2008,
+    "title": "OPC UA: data with meaning, not just values",
+    "era": "named",
+    "domains": ["manufacturing", "energy", "foundations"],
+    "kind": "standard",
+    "significance": 2,
+    "summary": "A new generation of the OPC standard adds information models, security and platform independence.",
+    "detail": "OPC Unified Architecture let devices describe what their data means: a pump, its speed and its units, not just tag 4711. Information models like this are what let a twin be assembled from many machines without hand-mapping every signal.",
+    "sources": [
+      {"title": "OPC Unified Architecture (Wikipedia)", "url": "https://en.wikipedia.org/wiki/OPC_Unified_Architecture"}
+    ]
+  },
+  {
+    "id": "in-silico-trials",
+    "year": 2008,
+    "title": "A simulator accepted in place of animal trials",
+    "era": "named",
+    "domains": ["health"],
+    "kind": "deployment",
+    "significance": 2,
+    "summary": "The US FDA accepts a type 1 diabetes simulator with a population of virtual patients as a substitute for animal trials in pre-clinical testing of control algorithms.",
+    "detail": "The UVA/Padova simulator models glucose and insulin dynamics across a population of virtual patients. Regulatory acceptance showed that validated virtual subjects could carry real decisions, a milestone for in-silico medicine and later patient twins.",
+    "sources": [
+      {"title": "Developing the UVA/Padova Type 1 Diabetes Simulator (PubMed)", "url": "https://pubmed.ncbi.nlm.nih.gov/37743740/"}
+    ]
+  },
+  {
+    "id": "citygml",
+    "year": 2008,
+    "title": "CityGML: a standard for 3D city models",
+    "era": "named",
+    "domains": ["built"],
+    "kind": "standard",
+    "significance": 1,
+    "summary": "The Open Geospatial Consortium adopts a shared data model for buildings, roads, terrain and city objects.",
+    "detail": "CityGML gave cities a common way to describe their built environment in 3D with semantics, which made it practical to build, share and reuse urban models. Many city twins are built on it or its successors.",
+    "sources": [
+      {"title": "CityGML (Wikipedia)", "url": "https://en.wikipedia.org/wiki/CityGML"}
+    ]
+  },
+  {
+    "id": "nasa-2010",
+    "year": 2010,
+    "title": "NASA's technology roadmap names the \"digital twin\"",
+    "era": "named",
+    "domains": ["aerospace", "foundations"],
+    "kind": "concept",
+    "significance": 3,
+    "summary": "NASA's draft roadmap for modeling, simulation and information technology, led by John Vickers, introduces the term.",
+    "detail": "The roadmap envisioned future vehicles accompanied by a virtual counterpart that mirrors the life of the specific vehicle using physics models, sensor data and fleet history. The term spread quickly from aerospace into manufacturing and beyond.",
+    "sources": [
+      {"title": "National Academies (2023), ch. 1: Introduction", "url": "https://nap.nationalacademies.org/read/26894/chapter/4"},
+      {"title": "NASA, ASME Digital Twin Summit keynote (2021)", "url": "https://ntrs.nasa.gov/api/citations/20210023699/downloads/ASME%20Digital%20Twin%20Summit%20Keynote_final.pdf"}
+    ]
+  },
+  {
+    "id": "industrie-40",
+    "year": 2011,
+    "title": "Industrie 4.0",
+    "era": "named",
+    "domains": ["manufacturing", "foundations"],
+    "kind": "concept",
+    "significance": 2,
+    "summary": "A German government-backed initiative, presented at the Hannover fair, frames a 'fourth industrial revolution' of connected, cyber-physical production.",
+    "detail": "Industrie 4.0 made cyber-physical systems, which are machines with a networked digital counterpart, a national industrial priority. It led to reference architectures and to the Asset Administration Shell, a standardized digital twin for industrial assets.",
+    "sources": [
+      {"title": "Fourth Industrial Revolution (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Fourth_Industrial_Revolution"}
+    ]
+  },
+  {
+    "id": "airframe-twin",
+    "year": 2011,
+    "title": "An airframe digital twin for structural life",
+    "era": "named",
+    "domains": ["aerospace"],
+    "kind": "research",
+    "significance": 2,
+    "summary": "US Air Force researchers propose a twin of each individual airframe to predict fatigue and remaining life.",
+    "detail": "Tuegel and colleagues argued that tracking each aircraft's actual loads and damage in a high-fidelity model could replace fleet-wide, conservative maintenance rules with individualized predictions. Asset-specific remaining-life prediction is still one of the clearest sources of value for twins.",
+    "sources": [
+      {"title": "Tuegel et al. (2011), Reengineering Aircraft Structural Life Prediction Using a Digital Twin", "url": "https://doi.org/10.1155/2011/154798"}
+    ]
+  },
+  {
+    "id": "nasa-usaf-2012",
+    "year": 2012,
+    "title": "The first formal definition",
+    "era": "named",
+    "domains": ["aerospace", "foundations"],
+    "kind": "concept",
+    "significance": 3,
+    "summary": "NASA and the US Air Force define the digital twin as an integrated, multiphysics, probabilistic simulation that mirrors the life of its flying twin.",
+    "detail": "Glaessgen and Stargel's 2012 paper and NASA's modeling and simulation roadmap published the definition most later definitions build on: 'an integrated multiphysics, multiscale, probabilistic simulation of an as-built vehicle or system that uses the best available physics models, sensor updates, fleet history, etc., to mirror the life of its corresponding flying twin.'",
+    "sources": [
+      {"title": "Glaessgen & Stargel (2012), The Digital Twin Paradigm for Future NASA and U.S. Air Force Vehicles", "url": "https://doi.org/10.2514/6.2012-1818"}
+    ]
+  },
+  {
+    "id": "living-heart",
+    "year": 2014,
+    "title": "Organ-scale twins: the realistic simulated heart",
+    "era": "scale-up",
+    "domains": ["health"],
+    "kind": "research",
+    "significance": 2,
+    "summary": "An industry, academic and clinical collaboration sets out to build a validated, realistic simulation of the human heart.",
+    "detail": "Multi-physics heart models combine anatomy, electrical activity, muscle mechanics and blood flow. They are used to test medical devices virtually and, increasingly, to personalize models to individual patients, which is the step from a 'virtual organ' to a patient twin.",
+    "sources": [
+      {"title": "The Rise of Digital Twins in Healthcare: A Mapping of the Research Landscape (PMC)", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11344555/"}
+    ]
+  },
+  {
+    "id": "virtual-singapore",
+    "year": 2014,
+    "title": "A nation commissions a city-scale twin",
+    "era": "scale-up",
+    "domains": ["built", "earth"],
+    "kind": "deployment",
+    "significance": 2,
+    "summary": "Singapore launches Virtual Singapore, a semantic 3D model of the whole city-state for planning and simulation.",
+    "detail": "Virtual Singapore combined 3D city data with information about buildings, terrain, infrastructure and more, so agencies could simulate things like solar potential, crowd flows and the effect of new buildings on wind. It became a reference point for national and city twin programs worldwide.",
+    "sources": [
+      {"title": "Virtual Singapore (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Virtual_Singapore"}
+    ]
+  },
+  {
+    "id": "industrial-asset-twins",
+    "year": 2016,
+    "title": "Twins for fleets of industrial assets",
+    "era": "scale-up",
+    "domains": ["energy", "manufacturing", "aerospace"],
+    "kind": "deployment",
+    "significance": 2,
+    "summary": "Industrial companies begin offering twins of turbines, jet engines, compressors and pumps as a standard product.",
+    "detail": "Cloud computing and inexpensive sensors made it economical to keep a model for every asset in a fleet and to use it for monitoring, predictive maintenance and performance tuning. This is the period when the term moved from research papers into boardrooms.",
+    "sources": [
+      {"title": "Digital twin (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Digital_twin"}
+    ]
+  },
+  {
+    "id": "aas",
+    "year": 2016,
+    "title": "The Asset Administration Shell",
+    "era": "scale-up",
+    "domains": ["manufacturing", "foundations"],
+    "kind": "standard",
+    "significance": 2,
+    "summary": "Industrie 4.0's reference architecture introduces a standardized digital representation for every industrial asset.",
+    "detail": "The Asset Administration Shell (AAS) gives each machine or component a structured, interoperable digital twin made of submodels (nameplate, technical data, operational data and more) that any supplier or user can read. The Industrial Digital Twin Association now maintains the specifications as open standards.",
+    "sources": [
+      {"title": "Industrial Digital Twin Association", "url": "https://industrialdigitaltwin.org/en/"}
+    ]
+  },
+  {
+    "id": "top-trend",
+    "year": 2017,
+    "title": "Digital twins become a top strategic technology trend",
+    "era": "scale-up",
+    "domains": ["foundations", "people"],
+    "kind": "concept",
+    "significance": 1,
+    "summary": "Industry analysts list digital twins among the top strategic technology trends, putting them on executive agendas.",
+    "detail": "From 2017, digital twins appeared on analyst trend lists and hype cycles, and the idea broadened to 'twins of the organization' that model business processes and people as well as assets. Attention brought investment, and also a flood of loose usage that later standards work tried to tighten.",
+    "sources": [
+      {"title": "Digital twin (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Digital_twin"}
+    ]
+  },
+  {
+    "id": "sim-to-real",
+    "year": 2017,
+    "title": "Sim-to-real: robots trained in randomized simulation",
+    "era": "scale-up",
+    "domains": ["robotics", "foundations"],
+    "kind": "research",
+    "significance": 2,
+    "summary": "Researchers show that vision models trained only on randomized simulated images can work on a real robot.",
+    "detail": "Domain randomization deliberately varies colors, lighting and textures in simulation so that the real world looks like 'just another variation'. Together with physics randomization, it opened the path for learning robot behavior in virtual worlds, which is how twins became training grounds for Physical AI.",
+    "sources": [
+      {"title": "Tobin et al. (2017), Domain Randomization for Transferring Deep Neural Networks from Simulation to the Real World", "url": "https://arxiv.org/abs/1703.06907"}
+    ]
+  },
+  {
+    "id": "shadow-vs-twin",
+    "year": 2018,
+    "title": "Model, shadow, twin: a useful distinction",
+    "era": "scale-up",
+    "domains": ["foundations", "manufacturing"],
+    "kind": "research",
+    "significance": 2,
+    "summary": "A widely cited review separates digital models, digital shadows and digital twins by how data flows between virtual and physical.",
+    "detail": "Kritzinger and colleagues proposed a simple test. A digital model has no automatic data link. A digital shadow is updated automatically from the physical object. A digital twin also acts back on the physical object. The distinction helps cut through marketing and is used on this site's 'What is a digital twin' page.",
+    "sources": [
+      {"title": "Kritzinger et al. (2018), Digital Twin in manufacturing: A categorical literature review and classification (IFAC-PapersOnLine)", "url": "https://doi.org/10.1016/j.ifacol.2018.08.474"}
+    ]
+  },
+  {
+    "id": "dod-digital-engineering",
+    "year": 2018,
+    "title": "Digital engineering becomes defense policy",
+    "era": "scale-up",
+    "domains": ["aerospace"],
+    "kind": "concept",
+    "significance": 1,
+    "summary": "The US Department of Defense publishes a Digital Engineering Strategy built around authoritative models and digital threads.",
+    "detail": "The strategy pushed programs to use connected models across a system's life, from requirements to sustainment. The 'digital thread', meaning the connected record linking each lifecycle stage, became the companion concept to the digital twin.",
+    "sources": [
+      {"title": "Digital twin (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Digital_twin"}
+    ]
+  },
+  {
+    "id": "dtc-2020",
+    "year": 2020,
+    "title": "Cross-industry consortia and professional definitions",
+    "era": "standards",
+    "domains": ["foundations"],
+    "kind": "standard",
+    "significance": 2,
+    "summary": "A cross-industry Digital Twin Consortium forms, and aerospace bodies publish a joint position paper on definition and value.",
+    "detail": "The Digital Twin Consortium defined a twin as 'an integrated data-driven virtual representation of real-world entities and processes, with synchronized interaction at a specified frequency and fidelity.' The AIAA and AIA position paper defined it as a set of virtual information constructs that mimics a physical asset, is dynamically updated with data from its physical twin throughout its life cycle and informs decisions that realize value.",
+    "sources": [
+      {"title": "Digital Twin Consortium: Definition of a Digital Twin", "url": "https://www.digitaltwinconsortium.org/initiatives/the-definition-of-a-digital-twin/"},
+      {"title": "AIAA & AIA (2020), Digital Twin: Definition & Value (PDF)", "url": "https://www.aia-aerospace.org/wp-content/uploads/Digital-Twin-Institute-Position-Paper-December-2020-1.pdf"}
+    ]
+  },
+  {
+    "id": "nerf",
+    "year": 2020,
+    "title": "Neural scene representations",
+    "era": "standards",
+    "domains": ["foundations", "robotics", "built"],
+    "kind": "research",
+    "significance": 1,
+    "summary": "Neural radiance fields reconstruct photorealistic 3D scenes from ordinary photos.",
+    "detail": "NeRF showed that a neural network could learn a 3D scene from a set of images and render it from new viewpoints. It started a wave of fast reality-capture methods that make building the visual layer of a twin far cheaper.",
+    "sources": [
+      {"title": "Mildenhall et al. (2020), NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis", "url": "https://arxiv.org/abs/2003.08934"}
+    ]
+  },
+  {
+    "id": "iso-23247",
+    "year": 2021,
+    "title": "ISO 23247: a digital twin framework for manufacturing",
+    "era": "standards",
+    "domains": ["manufacturing", "foundations"],
+    "kind": "standard",
+    "significance": 2,
+    "summary": "ISO publishes a framework for twins of 'observable manufacturing elements': people, equipment, materials, processes, facilities and products.",
+    "detail": "ISO 23247 gives manufacturers a reference architecture for building twins of anything observable on the shop floor, explicitly including personnel alongside machines and materials. It turned decades of practice into a shared vocabulary.",
+    "sources": [
+      {"title": "ISO 23247-1:2021, Digital twin framework for manufacturing, Part 1", "url": "https://www.iso.org/standard/75066.html"}
+    ]
+  },
+  {
+    "id": "destination-earth",
+    "year": 2022,
+    "title": "Destination Earth: twins of the planet",
+    "era": "standards",
+    "domains": ["earth"],
+    "kind": "deployment",
+    "significance": 3,
+    "summary": "The European Union launches Destination Earth to build highly detailed digital twins of the Earth system.",
+    "detail": "Destination Earth (DestinE) pairs kilometer-scale climate and weather-extremes models with a data platform so policymakers can explore 'what if' scenarios for climate adaptation and disaster response. Its first system was opened in 2024.",
+    "sources": [
+      {"title": "ECMWF: Destination Earth", "url": "https://stories.ecmwf.int/destination-earth/index.html"},
+      {"title": "ECMWF: Destination Earth system launched", "url": "https://destine.ecmwf.int/news/destination-earth-system-launched/"}
+    ]
+  },
+  {
+    "id": "gaussian-splatting",
+    "year": 2023,
+    "title": "Real-time photorealistic reality capture",
+    "era": "standards",
+    "domains": ["foundations", "robotics", "built"],
+    "kind": "research",
+    "significance": 2,
+    "summary": "3D Gaussian splatting renders captured scenes photorealistically in real time.",
+    "detail": "Gaussian splatting made it practical to turn a walk-through video of a factory, site or street into an explorable 3D scene within hours. Combined with semantic labeling and physics, it is shortening the path from a physical place to a simulation-ready twin.",
+    "sources": [
+      {"title": "Kerbl et al. (2023), 3D Gaussian Splatting for Real-Time Radiance Field Rendering", "url": "https://arxiv.org/abs/2308.04079"}
+    ]
+  },
+  {
+    "id": "open-x",
+    "year": 2023,
+    "title": "Shared robot learning data across institutions",
+    "era": "standards",
+    "domains": ["robotics"],
+    "kind": "research",
+    "significance": 1,
+    "summary": "Dozens of labs pool robot demonstration data across many robot types to train general-purpose robot policies.",
+    "detail": "The Open X-Embodiment collaboration showed that models trained across many robots generalize better than single-robot models. Real data is scarce and costly, which is exactly why simulated twins of robots and their environments became central to scaling robot learning.",
+    "sources": [
+      {"title": "Open X-Embodiment Collaboration (2023), Robotic Learning Datasets and RT-X Models", "url": "https://arxiv.org/abs/2310.08864"}
+    ]
+  },
+  {
+    "id": "iso-30173",
+    "year": 2023,
+    "title": "ISO/IEC 30173: shared concepts and terminology",
+    "era": "standards",
+    "domains": ["foundations"],
+    "kind": "standard",
+    "significance": 2,
+    "summary": "An international standard sets out vocabulary for digital twins across all domains.",
+    "detail": "ISO/IEC 30173 defines a digital twin as a digital representation of a target entity with data connections that enable convergence between the physical and digital states at an appropriate rate of synchronization. A shared vocabulary is a precondition for twins that interoperate across organizations.",
+    "sources": [
+      {"title": "ISO/IEC 30173:2023, Digital twin: Concepts and terminology", "url": "https://www.iso.org/standard/81442.html"}
+    ]
+  },
+  {
+    "id": "nasem-2023",
+    "year": 2023,
+    "title": "The National Academies set a research agenda",
+    "era": "standards",
+    "domains": ["foundations", "health", "earth", "aerospace"],
+    "kind": "research",
+    "significance": 3,
+    "summary": "A US National Academies report defines digital twins and calls for multi-agency investment in their foundations.",
+    "detail": "Foundational Research Gaps and Future Directions for Digital Twins stresses that 'the bidirectional interaction between the virtual and the physical is central to the digital twin', and that verification, validation and uncertainty quantification (VVUQ), ethics, privacy and security must be designed in. It uses case studies in atmospheric science, engineering and biomedicine.",
+    "sources": [
+      {"title": "National Academies (2023), Foundational Research Gaps and Future Directions for Digital Twins", "url": "https://nap.nationalacademies.org/read/26894/chapter/4"},
+      {"title": "National Academies news release (Dec 2023)", "url": "https://www.nationalacademies.org/news/2023/12/new-report-urges-multiagency-action-to-support-potentially-transformative-digital-twins-research"}
+    ]
+  },
+  {
+    "id": "virtual-human-twins",
+    "year": 2024,
+    "title": "Europe's Virtual Human Twins initiative",
+    "era": "ai-native",
+    "domains": ["health"],
+    "kind": "deployment",
+    "significance": 2,
+    "summary": "European programs build a roadmap and shared platform for twins of the human body, from organs to whole patients.",
+    "detail": "The European Virtual Human Twins initiative and its EDITH roadmap aim at an ecosystem where validated models of organs, diseases and patients can be combined, shared and used in clinical decision-making and in-silico trials, with attention to data protection and regulatory acceptance.",
+    "sources": [
+      {"title": "European Commission: Virtual Human Twins initiative", "url": "https://digital-strategy.ec.europa.eu/en/news/virtual-human-twins-launch-european-virtual-human-twins-initiative"},
+      {"title": "VPH Institute: EDITH Virtual Human Twin roadmap", "url": "https://www.vph-institute.org/news/edith-csa-is-wrapping-up-the-virtual-human-twin-roadmap.html"}
+    ]
+  },
+  {
+    "id": "destine-launch",
+    "year": 2024,
+    "title": "Destination Earth's first system opens",
+    "era": "ai-native",
+    "domains": ["earth"],
+    "kind": "deployment",
+    "significance": 1,
+    "summary": "The first Destination Earth platform and digital twins of weather extremes and climate adaptation become available to users.",
+    "detail": "With the system launched, public authorities could begin exploring high-resolution simulations of extreme events and climate scenarios through a common platform, which shows that planetary-scale twins are moving from research into public service.",
+    "sources": [
+      {"title": "ECMWF: Destination Earth system launched", "url": "https://destine.ecmwf.int/news/destination-earth-system-launched/"}
+    ]
+  },
+  {
+    "id": "ml-weather-operational",
+    "year": 2025,
+    "title": "Machine-learned forecasts go operational",
+    "era": "ai-native",
+    "domains": ["earth", "foundations"],
+    "kind": "deployment",
+    "significance": 3,
+    "summary": "A major international weather center runs a machine-learned forecasting model operationally, alongside its physics-based model.",
+    "detail": "ECMWF's AI Forecasting System (AIFS) became operational in 2025, with an ensemble version following. It is a landmark for every kind of twin: learned models that are trained on physics-based reanalysis can now deliver trusted, operational predictions far faster and more cheaply, while physics models remain the reference.",
+    "sources": [
+      {"title": "ECMWF: AI forecasts become operational", "url": "https://www.ecmwf.int/node/29308"},
+      {"title": "ECMWF: Ensemble AI forecasts become operational", "url": "https://www.ecmwf.int/en/about/media-centre/news/2025/ecmwfs-ensemble-ai-forecasts-become-operational"}
+    ]
+  },
+  {
+    "id": "physical-ai",
+    "year": 2025,
+    "title": "Twins as the training ground for Physical AI",
+    "era": "ai-native",
+    "domains": ["robotics", "manufacturing", "supply"],
+    "kind": "research",
+    "significance": 3,
+    "summary": "Robots, autonomous vehicles and warehouse fleets are increasingly trained and tested in simulated twins before deployment.",
+    "detail": "'Physical AI' refers to AI systems that perceive and act in the physical world. Because collecting real-world data is slow, costly and sometimes dangerous, developers generate it in twins of factories, warehouses and streets, then transfer what is learned to real machines (real-to-sim-to-real). The twin has gone from being a mirror of a machine to being a classroom for it.",
+    "sources": [
+      {"title": "Digital Twin AI: Opportunities and Challenges from Large Language Models to World Models (2026)", "url": "https://arxiv.org/abs/2601.01321"},
+      {"title": "4D Digital Twins: Real-to-Sim-to-Real for Physical AI (CVPR 2026 workshop)", "url": "https://research.nvidia.com/labs/amri/projects/4DDT/2026/"}
+    ]
+  },
+  {
+    "id": "world-models",
+    "year": 2026,
+    "title": "Generative world models and agentic twins",
+    "era": "ai-native",
+    "domains": ["foundations", "robotics", "people"],
+    "kind": "research",
+    "significance": 3,
+    "summary": "Research converges on twins that combine physics, learned world models and AI agents that can reason about and operate the system.",
+    "detail": "Recent surveys describe a shift toward hybrid physics–AI models, generative 'world models' that can imagine plausible futures of a scene, and language-capable agents that let people query and steer a twin in plain language. The open problems are trust, validation, interoperability and governance of systems that can act on the physical world.",
+    "sources": [
+      {"title": "Digital Twin AI: Opportunities and Challenges from Large Language Models to World Models (2026)", "url": "https://arxiv.org/abs/2601.01321"},
+      {"title": "Artificial Intelligence for Modeling & Simulation in Digital Twins (2026)", "url": "https://arxiv.org/abs/2602.19390"}
+    ]
+  }
+]

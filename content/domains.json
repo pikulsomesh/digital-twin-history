@@ -1,0 +1,12 @@
+[
+  {"id": "manufacturing", "name": "Manufacturing", "short": "Factories, lines and products"},
+  {"id": "aerospace", "name": "Aerospace & defense", "short": "Spacecraft, aircraft and fleets"},
+  {"id": "energy", "name": "Energy & utilities", "short": "Turbines, grids, plants and networks"},
+  {"id": "built", "name": "Buildings & cities", "short": "Buildings, infrastructure and urban systems"},
+  {"id": "health", "name": "Health & life sciences", "short": "Organs, patients and clinical trials"},
+  {"id": "supply", "name": "Supply chain & logistics", "short": "Networks, warehouses, ports and airports"},
+  {"id": "earth", "name": "Earth & climate", "short": "Weather, climate and the natural world"},
+  {"id": "people", "name": "People & organizations", "short": "Workforce, operators and the enterprise"},
+  {"id": "robotics", "name": "Robotics & Physical AI", "short": "Machines that learn in simulation"},
+  {"id": "foundations", "name": "Foundations", "short": "Mathematics, computing, standards and definitions"}
+]

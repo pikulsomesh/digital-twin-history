@@ -1,0 +1,68 @@
+[
+  {
+    "id": "lights",
+    "label": "1950s–60s",
+    "name": "Lights on the floor",
+    "question": "How did a manager know what the line was doing?",
+    "narrative": "By walking it. Each station has an andon light, and a board on the wall repeats them so a supervisor can see at a glance which station has stopped. Workers clock in at the door. The 'model' of the factory is the board, the clipboard and the supervisor's memory.",
+    "see": "Which station is running, waiting or stopped, right now.",
+    "know": "Almost nothing about why. Someone has to walk over and look.",
+    "decide": "Send help to the red light. Plan tomorrow from paper tallies.",
+    "milestones": ["time-clock", "jidoka-loom", "andon", "numerical-control"]
+  },
+  {
+    "id": "control-room",
+    "label": "1970s–80s",
+    "name": "The control room and the mimic panel",
+    "question": "What changed when machines got controllers?",
+    "narrative": "Programmable logic controllers replace relay cabinets, and their states are wired back to a control room. A mimic panel draws the line as a diagram with lamps for each machine. Engineers design parts in early CAD, but the design model and the running machine live in different worlds.",
+    "see": "Machine states and alarms for the whole line from one room.",
+    "know": "Which machine faulted and which alarm fired. Counts per shift.",
+    "decide": "Dispatch maintenance faster. Adjust schedules each shift.",
+    "milestones": ["plc", "scada", "cim", "solid-modeling", "sketchpad"]
+  },
+  {
+    "id": "connected",
+    "label": "1990s–2000s",
+    "name": "The connected plant",
+    "question": "What happened when plant data reached the network?",
+    "narrative": "Manufacturing execution systems record every order, batch and operator. Interface standards let software read any controller. 3D CAD models exist for every product, and the idea of a 'virtual space' that mirrors the 'real space' takes shape in product lifecycle management.",
+    "see": "Work orders, yields and downtime on terminals across the plant.",
+    "know": "What happened to each unit, and who worked on it, after the fact.",
+    "decide": "Trace defects to causes. Plan with real cycle times.",
+    "milestones": ["mes", "opc", "isa-95", "grieves-2002", "opc-ua"]
+  },
+  {
+    "id": "sensors",
+    "label": "2010s",
+    "name": "Sensors and dashboards",
+    "question": "What did cheap sensors and the cloud add?",
+    "narrative": "Vibration, temperature and power sensors stream to the cloud. Each critical machine gets a model that compares how it is behaving with how it should behave, and warns before it fails. The term 'digital twin' arrives from aerospace, and the line between model and machine begins to blur.",
+    "see": "Live condition of every critical asset, anywhere.",
+    "know": "Which machine is drifting toward failure, days in advance.",
+    "decide": "Fix before it breaks. Compare lines and plants.",
+    "milestones": ["nasa-2010", "industrie-40", "industrial-asset-twins", "aas", "shadow-vs-twin"]
+  },
+  {
+    "id": "live-twin",
+    "label": "Today",
+    "name": "The live digital twin",
+    "question": "What does a full factory twin look like now?",
+    "narrative": "A complete, physically accurate 3D replica of the facility is synchronized with live data. You can walk into it from anywhere, open any machine and see what it is doing and why. Changes such as a new layout, a faster line or a new product are tested in the twin first and then pushed back to the floor. Data flows both ways.",
+    "see": "Every machine, product and flow in 3D, live, at any level of detail.",
+    "know": "Why performance changed, and what will happen if you change something.",
+    "decide": "Test changes virtually, then apply them to the real floor with confidence.",
+    "milestones": ["iso-23247", "dtc-2020", "gaussian-splatting", "nasem-2023"]
+  },
+  {
+    "id": "physical-ai",
+    "label": "Frontier",
+    "name": "Physical AI: the twin as a classroom",
+    "question": "Where is this going next?",
+    "narrative": "The twin becomes the place where machines learn. Robots practice thousands of variations of a task in simulation, with randomized lighting, parts and physics, before they touch the real line. AI agents read the twin, answer questions in plain language and propose changes that a person can approve.",
+    "see": "Not just what is happening, but thousands of plausible futures.",
+    "know": "Which policy, layout or schedule is most robust, before trying it.",
+    "decide": "Approve or reject changes proposed by AI agents, with evidence.",
+    "milestones": ["sim-to-real", "open-x", "physical-ai", "world-models"]
+  }
+]

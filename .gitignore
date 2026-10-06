@@ -1,0 +1,5 @@
+node_modules/
+dist/
+public/data/publications.json
+.DS_Store
+.vercel
