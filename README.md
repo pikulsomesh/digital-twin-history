@@ -65,7 +65,7 @@ npm run build        # validates content, then builds to dist/
 
 ## Hosting
 
-- **GitHub Pages (default).** Every push to `main` builds the site and publishes it to the `gh-pages` branch (see `.github/workflows/deploy.yml`). A weekly run refreshes the publication counts.
+- **GitHub Pages (default).** Every push to `main` builds the site and deploys `dist/` to Pages (see `.github/workflows/static.yml`; Pages source is set to *GitHub Actions*). A weekly run refreshes the publication counts.
 - **Vercel.** Import the repository on vercel.com. The defaults work as they are (framework *Vite*, build `npm run build`, output `dist`). No configuration file is needed.
 
 ## Contributing
